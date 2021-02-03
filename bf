@@ -5,7 +5,15 @@
 # [GCC 4.2.1 Compatible Android (6454773 based on r365631c2) Clang 9.0.8 (https:/
 # Embedded file name: dg
 import os, sys, mechanize, cookielib, random
-logo = '\n\x1b[1;91m__________________ \n\x1b[1;92m| ___ \\  ___|  ___|\n\x1b[1;93m| |_/ / |_  | |_   \n\x1b[1;95m| ___ \\  _| |  _|  \n\x1b[1;96m| |_/ / |   | |    \n\x1b[1;91m\\____/\\_|   \\_|  \x1b[1;97mBrute Force Facebook\n\x1b[1;97m--------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author   : Angga Kurniawan     \n\x1b[1;97m\xe2\x9e\xa3 GitHub   : https://github.com/anggaxd\n\x1b[1;97m\xe2\x9e\xa3 YouTube  : ANGGA KURNIAWAN\n\x1b[1;97m--------------------------------------------\n                     \n'
+logo = """ \x1b[1;97m  ____  _____  _    _ _______ ______ 
+ |  _ \|  __ \| |  | |__   __|  ____|
+ | |_) | |__) | |  | |  | |  | |__   
+ |  _ <|  _  /| |  | |  | |  |  __|  
+ | |_) | | \ \| |__| |  | |  | |____ 
+ |____/|_|  \_\\____/   |_|  |______|
+                                     
+                                     
+Brute Force Facebook\n\x1b[1;97m--------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author   : Lost  \n\x1b[1;97m\xe2\x9e\xa3 GitHub   : https://github.com/Lost\n\x1b[1;97m\xe2\x9e\xa3 YouTube  : Lost Kurdish\n\x1b[1;97m--------------------------------------------\n                     \n"""
 os.system('clear')
 print logo
 email = str(raw_input('Target Username / ID Facebook : '))
